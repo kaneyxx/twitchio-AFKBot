@@ -1,6 +1,4 @@
 from twitchio.ext import commands
-#請先去終端 pip install twitchio
-
 
 bot = commands.Bot(
     irc_token='oauth:', #填入你的oauth, 形式為"oauth:1a2b..." https://twitchapps.com/tmi/
