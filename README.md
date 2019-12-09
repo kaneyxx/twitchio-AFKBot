@@ -21,5 +21,24 @@ py -version -m pip install git+https://github.com/TwitchIO/TwitchIO.git`**
 
 ### get_streams(language='', game_id=number, limit=number)
 * language: English='en', 中文='zh'
-* game_id: could claim from many commands(might add soon...)
+* game_id: check posted below(you can also modify code to get)
 * limit: 1~100
+
+
+
+| English  | 中文 | game_id |
+| -------- | -------- | -------- |
+| IRL     |  IRL    | 509658     |
+| Music and Performing Arts| 音樂與表演藝術|26936|
+| Rainbow Six: Siege | 虹彩六號 | 460630 |
+| League of Legends | 英雄聯盟 | 21779|
+| Teamfight Tactics | 聯盟戰棋 | 513143 |
+| Hearthstone | 爐石戰記 | 138585 |
+| Age of Empire II:Def | 世紀帝國2決定版| 512988 |
+| PUBG | 吃雞 | 493057
+| World of Warcraft | 魔獸世界 | 18122 |
+| Monster Hunter Wolrd|魔物獵人世界|497467|
+| Dead by Daylight | 黎明死線 | 491487|
+| Maple Story | 楓之谷 | 19976|
+| Pokemon Sword/Shield| 寶可夢劍盾| 497451|
+| Overwatch | 鬥陣特攻 | 488552|
