@@ -20,7 +20,7 @@ py -version -m pip install git+https://github.com/TwitchIO/TwitchIO.git`**
 * ***initial_channels*** = ['what you like'] could be a list  
 
 ### get_streams(language='', game_id=number, limit=number)
-* language: English='en', 中文='zh'
+* language: English='en', 中文='zh', にほんご='ja', français='fr'
 * game_id: check posted below(you can also modify code to get)
 * limit: 1~100
 
