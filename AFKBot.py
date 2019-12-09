@@ -22,14 +22,15 @@ async def event_ready():
     await bot.join_channels(login_list)
     print("OK")
 
-@bot.event
-async def event_message(message):
-    try:
-        name = message.tags["display-name"]
-        print(name,message.author,message.content,message.timestamp)
-    except TypeError:
-        print(message.author,message.content)
-    await bot.handle_commands(message)
+# for displaying chat room
+# @bot.event
+# async def event_message(message):
+#     try:
+#         name = message.tags["display-name"]
+#         print(name,message.author,message.content,message.timestamp)
+#     except TypeError:
+#         print(message.author,message.content)
+#     await bot.handle_commands(message)
 
 
 bot.run()
