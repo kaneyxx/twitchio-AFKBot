@@ -1,7 +1,7 @@
 # twitchio-AFKBot
 AFK for stickers/subscription etc.
 
-The bot is based on python module <twitchio>  
+The bot is based on python module [twitchio](https://github.com/TwitchIO/TwitchIO)
 
 Before running, you need to install the module by terminal  
 
