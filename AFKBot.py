@@ -3,11 +3,11 @@ from twitchio.ext import commands
 
 
 bot = commands.Bot(
-    irc_token='oauth:go5lqzpp5erj44yctmx8ghpxopy5bf', #填入你的oauth, 形式為"oauth:1a2b..." https://twitchapps.com/tmi/
-    client_id='0i458798astpzu979kac70w53oj9oj',  #填入註冊應用給的clien id  https://dev.twitch.tv/console/apps
-    nick='kaneyxx', #隨意
+    irc_token='', #填入你的oauth, 形式為"oauth:1a2b..." https://twitchapps.com/tmi/
+    client_id='',  #填入註冊應用給的clien id  https://dev.twitch.tv/console/apps
+    nick='', #隨意
     prefix='!!', #純掛網可以不用改
-    initial_channels=['kaneyxx','fifymegan', 'chenchen1771']
+    initial_channels=['']
 )
 
 
