@@ -12,14 +12,21 @@ bot = commands.Bot(
 async def event_ready():
     login_list = []
     print(f'Ready | {bot.nick}')
-    #language 英文填en, 中文填zh // game_id不知道可不填game_id=513143 // limit最多100 
-    data = await bot.get_streams(language='zh',limit=100) 
+    language_choice = input("language(N for pass): ")
+    if language_choice == "N":
+        language_choice = None
+    game_choice = input("game_id(N for pass): ")
+    if game_choice == "N":
+        game_choice = None
+    limit_choice = input("limit(1~100): ")
+    data = await bot.get_streams(language=None,game_id=game_choice,limit=int(limit_choice))
     for i in data:
         id = i['user_id']
         names = await bot.get_users(id)
         login_list.append(names[0][1])
-        print(login_list)
+        # print(login_list)
     await bot.join_channels(login_list)
+    print(len(login_list))
     print("OK")
 
 # for displaying chat room
