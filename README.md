@@ -22,6 +22,7 @@ py -version -m pip install git+https://github.com/TwitchIO/TwitchIO.git`**
 ### get_streams(language='', game_id=number, limit=number)
 * language:English="en",中文="zh",にほんご="ja",français="fr",한국어="ko"
 * game_id: check posted below(you can also modify code to get)
+  - language/game_id: type N for pass it if you don't want to choose
 * limit: 1~100
 
 
