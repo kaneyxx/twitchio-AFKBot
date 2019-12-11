@@ -25,7 +25,7 @@ py -version -m pip install git+https://github.com/TwitchIO/TwitchIO.git`**
 ## Within AFKBot.py file:  
 * ***irctoken*** = "oauth:1a2b..." you can get it from [oauth](https://twitchapps.com/tmi/)  
 * ***clientid*** = "blablabla" you can get it from [client_id](https://dev.twitch.tv/console/apps) (by registering a app)  
-* ***nick*** is fine  
+* ***nick*** = your twitch login name  
 * ***prefix*** is used for bot's command, you can ignore it if just for AFK  
 * ***initial_channels*** = ['what you like'] could be a list  
 
