@@ -13,7 +13,7 @@ py -version -m pip install git+https://github.com/TwitchIO/TwitchIO.git`**
 
   
 ## Within bot.py file:  
-* ***irctoken*** = "oauth:1a2b..." you can get it from [oauth](https://https://twitchapps.com/tmi/)  
+* ***irctoken*** = "oauth:1a2b..." you can get it from [oauth](https://twitchapps.com/tmi/)  
 * ***clientid*** = "blablabla" you can get it from [client_id](https://dev.twitch.tv/console/apps) (by registering a app)  
 * ***nick*** is fine  
 * ***prefix*** is used for bot's command, you can ignore it if just for AFK  
