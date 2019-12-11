@@ -4,8 +4,10 @@ AFK for stickers/subscription etc.
 The bot is based on python module [twitchio](https://github.com/TwitchIO/TwitchIO)
 
 ## Using AFKBot.exe straightly
-You don't need python or related module, but you still need the access token and client-id. Please check I posted below (With .py file)  
+You don't need python or related module, but you still need the access token and client-id. Please check I posted below (With .py file)    
   
+First execution, please choose N to save pass in your tokens. It will save in a .txt file(you can easily modify it by yourself).
+
 Language and game_id setting you can pass by entering N.  
 Errors occur when limit sets beyond 100.
 
