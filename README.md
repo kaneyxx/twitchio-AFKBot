@@ -9,8 +9,9 @@ You don't need python or related module, but you still need the access token and
 First execution, please choose N to save pass in your tokens. It will save in a .txt file(you can easily modify it by yourself).
 
 Language and game_id setting you can pass by entering N.  
-Errors occur when limit sets beyond 100.
+Errors occur when limit sets beyond 100.  
 
+* Windows defender or some antivirus would misjudge this as a Trojan virus, please don't download it if you worry about it.
 ***********************************************  
   
   If you want to modify python file or run by it :
